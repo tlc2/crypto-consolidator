@@ -1,5 +1,5 @@
 # crypto-consolidator
-simple python script to consolidate eg. mining/masternode inputs into one address
+simple python script to consolidate eg. mining/masternode inputs into one address, should work with any bitcoin-derived currency
 
 usage: 
 
