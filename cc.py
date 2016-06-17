@@ -6,11 +6,12 @@ global total, fromaccount, toaddress, amount, cmd
 
 total = 0
 
-fromaccount = str(sys.argv[1])
-toaddress = str(sys.argv[2])
-amount = str(sys.argv[3])
+currency = str(sys.argv[1])
+fromaccount = str(sys.argv[2])
+toaddress = str(sys.argv[3])
+amount = str(sys.argv[4])
 
-cmd = ('./bitcredit-cli sendfrom ' + fromaccount + ' ' + toaddress + ' ' + amount)
+cmd = ('./' + currency + '-cli sendfrom ' + fromaccount + ' ' + toaddress + ' ' + amount)
 
 def rpc():
     global total, fromaccount, toaddress, amount, cmd
