@@ -21,4 +21,4 @@ eg. python cc.py "" 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
 
 experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them
 
-lICENCE: http://www.wtfpl.net/
+Licence: http://www.wtfpl.net/
