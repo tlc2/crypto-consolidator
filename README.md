@@ -17,7 +17,9 @@ usage (ENTIRELY AT YOUR OWN RISK!):
 
 7. run with 'python cc.py fromaccount toaddress amount'
 
-eg. python cc.py "" 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
+eg. 
+
+python cc.py "" 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
 
 experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them
 
