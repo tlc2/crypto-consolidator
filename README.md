@@ -1,7 +1,7 @@
 # crypto-consolidator
 simple python script to consolidate eg. mining/masternode inputs into one address, should work with any bitcoin-derived currency
 
-usage: 
+usage (ENTIRELY AT YOUR OWN RISK!): 
 
 1. clone or copy cc.py, save it to wherever your wallet lives and make sure bitcredit-cli or whatever is in the same directory
 
@@ -20,3 +20,5 @@ usage:
 eg. python cc.py "" 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
 
 experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them
+
+lICENCE: http://www.wtfpl.net/
