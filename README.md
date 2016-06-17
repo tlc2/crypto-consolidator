@@ -3,7 +3,7 @@ simple python script to consolidate eg. mining/masternode inputs into one addres
 
 usage: 
 
-1. clone or copy cc.py, save it to wherever your wallet lives and make sure bitcredit-cli/bitcoin-cli/dash-cli or whatever is in the same directory
+1. clone or copy cc.py, save it to wherever your wallet lives and make sure bitcredit-cli or whatever is in the same directory
 
 2. modify line #13 to yourcurrency-cli if needed
 
