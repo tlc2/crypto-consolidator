@@ -7,9 +7,9 @@ usage:
 
 2. modify line #13 to yourcurrency-cli if needed
 
-3. in your wallet console, run 'listaccounts' to see what you're working with
+3. start bitcredit-qt or bitcreditd, and in your wallet console or on the CLI, run 'listaccounts' to see what you're working with
 
-4. create a new recieving account with 'getaccount label'
+4. create a new recieving account with 'getaccount label' or the receive request GUI dialog
 
 5. unlock your wallet, run dumpprivkey for the address you're consolidating to and copy and keep that privkey safe!
 
