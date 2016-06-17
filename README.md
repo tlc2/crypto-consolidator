@@ -16,6 +16,7 @@ usage:
 6. your wallet must be unlocked for the script to work, so unlock your wallet for an appropriate amount of time, eg. 1000 secs or something, depends how many txes you have to consolidate
 
 7. run with 'python cc.py fromaccount toaddress amount'
+
 eg. python cc.py "" 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
 
 experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them
