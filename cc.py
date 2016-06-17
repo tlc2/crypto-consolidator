@@ -2,28 +2,26 @@
 
 import os, sys, subprocess, time
 
-global total, fromaccount, toaddress, amount, cmd
+global total, toaddress, amount, cmd
 
 total = 0
 
 currency = str(sys.argv[1])
-fromaccount = str(sys.argv[2])
-toaddress = str(sys.argv[3])
-amount = str(sys.argv[4])
+toaddress = str(sys.argv[2])
+amount = str(sys.argv[3])
 
-cmd = ('./' + currency + '-cli sendfrom ' + fromaccount + ' ' + toaddress + ' ' + amount)
+cmd = ('./' + currency + '-cli sendtoaddress ' + toaddress + ' ' + amount)
 
 def rpc():
-    global total, fromaccount, toaddress, amount, cmd
+    global total, toaddress, amount, cmd
     q = subprocess.check_output(cmd, shell=True)
     print q
     total = total + int(amount)
-    print 'total : ' + str(total)
+    print 'total sent: ' + str(total)
     time.sleep(6)
     rpc()
 
 rpc()
-
 
 
 
