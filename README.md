@@ -5,7 +5,7 @@ usage:
 
 1. clone or copy cc.py, save it to wherever your wallet lives and make sure bitcredit-cli or whatever is in the same directory
 
-2. modify line #13 to yourcurrency-cli if needed
+2. modify line #13 to yourcurrency-cli if needed and resave 
 
 3. start bitcredit-qt or bitcreditd, and in your wallet console or on the CLI, run 'listaccounts' to see what you're working with
 
