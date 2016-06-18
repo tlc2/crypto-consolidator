@@ -3,7 +3,7 @@
 import os, subprocess, time
 from sys import platform as _platform
 
-global total, toaddress, amount, cmd
+global total, currency, toaddress, amount, cmd
 
 total = 0
 
@@ -25,7 +25,7 @@ elif _platform == "win32":
 #print 'running on: ' + _platform
 
 def rpc():
-    global total, toaddress, amount, cmd
+    global total, amount, cmd
     q = subprocess.check_output(cmd, shell=True)
     print q # txid of transaction
     total = total + int(amount)
