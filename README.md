@@ -21,6 +21,8 @@ or
 
 python cc.py bitcredit test 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
 
-experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them
+script will keep on repeating that transaction until you've run out of funds or it can't build that amount from the available inputs
+
+experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them, eg. after consolidating in chunks of n, repeat in chunks of 10*n or whatever suits you
 
 Licence: http://www.wtfpl.net/
