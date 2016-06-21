@@ -11,17 +11,14 @@ usage (ENTIRELY AT YOUR OWN RISK!):
 
 4. your wallet must be unlocked for the script to work, so unlock your wallet for an appropriate amount of time, eg. 1000 secs or something, depends how many txes you have to consolidate
 
-5. run with 'python cc.py currency fromaccount toaddress amount'
+5. run with 'python cc.py currency toaddress amount'
 
 eg. 
 
-python cc.py bitcredit "" 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
+python cc.py bitcredit 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
 
-or
 
-python cc.py bitcredit test 6By49FGYf15SQUweCF4ieya67321GiJ7mP 1000
-
-script will keep on repeating that transaction until you've run out of funds or it can't build that amount from the available inputs
+the script will keep on repeating that transaction until you've run out of funds or it can't build that amount from the available inputs
 
 experiment with amount for best results for your wallet situation, keep rerunning script until your BCR are where you want them, eg. after consolidating in chunks of n, repeat in chunks of 10*n or whatever suits you
 
